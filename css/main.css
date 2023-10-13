@@ -136,7 +136,7 @@ h1{
   .animated [data-char]:after {
     -webkit-animation-name: glitch-switch;
     animation-name: glitch-switch;
-    animation-duration: 1.5s;
+    animation-duration: 0.7s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
   }
