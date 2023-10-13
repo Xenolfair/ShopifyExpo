@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+
+.imgLogo{
+    width: 95px;
+    padding: 0px 0px 0px 10px;
+}
+
+/* Search Bar */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #1a1a1a  ;
+    padding: 10px; 
+}
+
+.header img {
+    max-width: 100%; 
+    height: auto; 
+    cursor: pointer;
+    padding: 0px 100px 0px 0px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.search-form {
+    background-color: #303030;
+    display: flex;
+    border: 0.5px solid #757575;
+    border-radius: 8px;
+    padding: 1px 0px;
+    cursor: pointer;
+}
+
+.search-form:hover{
+    border: 0.5px solid #dedddd;
+}
+
+input[type="text"] {
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #303030;
+    border: none;
+    padding: 5px 300px 5px 5px;
+    margin-right: 10px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    color: #fff;
+  }
+
+::placeholder {
+    color:#b0afaf;
+}
+
+.svgSearch{
+    padding: 0px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctrlK {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color:#b0afaf;
+    font-size: 12px;
+    padding: 0px 10px 0px 0px;
+}
+
+/*Profile User*/
+.profileuser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svgProfile{
+    display: flex;
+    cursor: pointer;
+    margin: 0px 5px 0px 0px;
+    padding: 5.5px;
+    border-radius: 7px;
+    background-color: #303030;
+}
+
+.svgProfile:hover{
+    transition: 0.1s;
+    background-color: #4f4f4f;
+    border-radius: 10px;
+}
+
+.user{
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 3px 3px 10px;
+    display: flex;
+    color: #fff;
+    background-color: #303030;
+    border-radius: 6px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px 0px 0px;
+}
+
+.user:hover {
+    transition: 0.1s;
+    background-color: #4f4f4f;
+}
+
+.MS {
+    margin: 0px 0px 0px 7px;
+    padding: 4px 4px 5px 4px;
+    color: #791a79;
+    background-color: #fbcffb;
+    border-radius: 6px;
+}
+
+
+/*nav*/
+
+nav {
+    position: fixed;
+    z-index: 100;
+    padding: 0px 0px;
+    margin: 49px 0px;
+    height: 100%;
+}
+.nav {
+    background-color: #ebebeb  ;
+    padding: 10px 0px 10px 10px; 
+}
+
+.navP1 {
+    margin: 10px 0px 0px 5px;
+}
+
+
+.pCustomers{
+    background-color: white;
+}
+
+.home, .orders, .products, .content, .customers, .analytics, .marketing, .discounts {
+    text-decoration: none;
+    color: #303030;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 3px 0px 6px 10px;
+}
+
+
+.svgProducts, .svgContent, .svgAnalytics, .svgMarketing, .svgDiscounts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 7px;
+}
+
+.svgCustomers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2px 0px 8px;
+}
+
+.svgHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 2px 0px 8px;
+}
+
+.svgOrders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 3px 0px 9px;
+}
+
+.pHome, .pOrders, .pProducts, .pContent, .pCustomers, .pAnalytics, .pMarketing, .pDiscounts {
+    display: flex;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.pHome:hover, .pOrders:hover, .pProducts:hover, .pContent:hover, .pCustomers:hover, .pAnalytics:hover, .pMarketing:hover, .pDiscounts:hover {
+    background-color:#f5f5f5 ;
+}
+
+.navP2 {
+    margin: 10px 0px 0px 5px;
+}
+
+.sales{
+    padding-right: 130px;
+    color: #6a6a6a;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.pSales{
+    cursor: pointer;
+    display: flex;
+    padding: 13px 0px 3px 10px;
+}
+
+.svgSales{
+    fill: #969696;
+}
+
+.svgSales:hover, .sales:hover{
+    color: #1a1a1a;
+    fill: #1a1a1a;
+}
+
+.pSales svg{
+    padding: 0px 0px 0px 0px;
+}
+
+.pOnline, .pPoint{
+    display: flex;
+    padding: 3px 0px 6px 10px;
+    margin-right: 15px;
+}
+
+.svgOnline {
+    filter:brightness(0) saturate(100%) invert(36%) sepia(13%) saturate(137%) hue-rotate(169deg) brightness(95%) contrast(87%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 6px 0px 0px;
+}
+
+.svgPoint{
+    filter:brightness(0) saturate(100%) invert(36%) sepia(13%) saturate(137%) hue-rotate(169deg) brightness(95%) contrast(87%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 6px 0px 0px;
+}
+
+.pOnline, .pPoint {
+    cursor: pointer;
+    color: #303030;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.pOnline:hover, .pPoint:hover{
+    background-color:#f5f5f5 ;
+}
+
+.navP3 {
+    margin: 10px 0px 0px 5px;
+}
+
+.apps{
+    padding-right: 167px;
+    color: #6a6a6a;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.pApps{
+    display: flex;
+    cursor: pointer;
+    padding: 13px 0px 3px 10px;
+    margin-right: 15px;
+}
+
+.svgApps{
+    fill: #969696;
+}
+
+.svgApps:hover, .apps:hover{
+    color: #1a1a1a;
+    fill: #1a1a1a;
+}
+
+.add{
+    padding-right: 100px;
+    color: #6a6a6a;
+    font-size: 13px;
+    font-weight: 600;
+}
+.pApps svg{
+    padding: 0px 0px 0px 0px;
+}
+
+.pAdd {
+    display: flex;
+    padding: 3px 0px 6px 10px;
+    margin-right: 15px
+}
+
+.svgAdd {
+    fill:#8a8a8a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 6px 0px 0px;
+}
+
+.pAdd{
+    cursor: pointer;
+    color: #303030;
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 7px;
+}
+
+.pAdd:hover{
+    background-color:#dedede ;
+}
+
+main {
+    padding: 80px 260px 50px 480px;
+    background-color: #f1f1f1;
+}
+
+/*main*/
+.recuadroExpo1{
+    background-color: white;
+    border-radius: 8px;
+    border: 0.5px solid #dcdcdc;
+    box-shadow: 0 0.1875rem 0.0625rem -0.0625rem #00000012;;
+    padding: 11px 37px 11px 11px;
+    margin-bottom: 15px;
+}
+
+.recuadroExpo1:hover{
+    background-color: #f1f1f1;
+    transition: 0.5s;
+}
+
+
+.titleMain1 {
+    display: flex;
+}
+
+.recuadroExpo{
+    background-color: white;
+    border-radius: 8px;
+    border: 0.5px solid #dcdcdc;
+    box-shadow: 0 0.1875rem 0.0625rem -0.0625rem #00000012;;
+    padding: 11px 37px 11px 11px;
+    margin-bottom: 15px;
+}
+
+.recuadroExpo:hover{
+    background-color: #f1f1f1;
+    transition: 0.5s;
+}
+/*textos*/
+.txtTitleMain {
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight:600;
+}
+
+.txtMain {
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"San Francisco","Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+}
+
+
+.svgStar {
+    height: 20px;
+    padding: 5px 5px 5px 5px;
+    margin-right: 10px;
+    border-radius: 7px;
+    background-color: rgb(252, 216, 132);
+}
